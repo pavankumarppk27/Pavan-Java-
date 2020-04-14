@@ -1,0 +1,131 @@
+{
+	"customerId": "1",
+	"customerAttributesModel": {
+		"customerTypeCode": "PART-TIME",
+		"inWithVerizonInd": "YES"
+	},
+	"ecpdProfileModel": {
+		"customerTypeCode": "CUST-REG",
+		"inWithVerizonInd": "VZ-1001"
+	},
+	"accountModel": {
+		"billAccountModel": {
+			"firstName": "pavan kuamr",
+			"accountNumber": "22092015",
+			"accountEstablishDate": "12-03-2009",
+			"activeMtnCount": "10",
+			"billCycleNumber": "334455",
+			"suspendedMtnCount": 15,
+			"singleBillCompanyCode": "VBCD",
+			"oneBillStatusCode": "BICD",
+			"fraudIndicator": "ABC",
+			"emailId": "pavan@gmail.com"
+		},
+		"currentProductListModel": {
+			"spoId": "SPOID",
+			"spoBillDesc": "CREDIT BILL",
+			"spoUniqueId": "SPOUNIA",
+			"spoRuleGroupId": "SPOGRPA",
+			"spoLevelCode": "SPOLC",
+			"spoMethodCode": "SPOM",
+			"effectiveDate": "20-02-2019",
+			"endDate": "28-02-2020",
+			"spoDefaultPrice": 999.99,
+			"frequencyCount": 10,
+			"frequencyCode": "FRCODE"
+		},
+		"eventNotificationModel": {
+			"eventName": "EVNT-ABC",
+			"eventValue": "1234"
+		},
+		"pricingModel": {
+			"paymentInfoModel": {
+				"lastPaymentDate": "22-03-2020",
+				"pastDueBalance": "3000D",
+				"invoiceDate": "19-10-2019",
+				"outStandingBalance": 234.43,
+				"billTotalRemitAmount": 1234.0,
+				"lastPaymentAmount": 245.0,
+				"lateFee": 121.0,
+				"cashOnlyIndicator": "CASH-ONLY",
+				"suspendInd": "LOW-BALANCE",
+				"autoPayEnabled": "YES",
+				"billCycleCode": 9999.0,
+				"creditDetails": {
+					"creditCardNumber": "SB44566",
+					"expiryMonth": "6",
+					"expiryYear": "2022",
+					"creditCardType": "RUPEE",
+					"dataAllowanceBarModel": {
+						"overAgeQty": 22.22,
+						"overAgeUnit": "25",
+						"overageSize": 7.5,
+						"overageCost": "40000",
+						"barColor": "RED",
+						"barPercent": 88.77,
+						"totalUsed": 12000.22,
+						"totalAllowed": 33444.33,
+						"totalRemaining": 11999.0,
+						"totalUnitOfMeasure": "55000",
+						"allowanceType": "AAA",
+						"allowanceSource": "SONY",
+						"warningCode": "LOWBALANCE"
+					}
+				},
+				"ecustomerDate": "29-05-2017"
+			},
+			"mbillCompareModel": {
+				"totalCharges": 44556.76,
+				"invoicePeriod": "13",
+				"currBalanceFwd": 203.03,
+				"totalCurrOneTimeChg": 123.32,
+				"totalCurrMonChg": 832.23,
+				"totoalCurrTaxChg": 5678.98,
+				"currentMonthDesc": "123.32D",
+				"prevMonthDesc": "54.65D",
+				"totatalCurrentCharges": 56.9,
+				"prevTotalCharges": 65.87
+			}
+		},
+		"mtnModel": {
+			"mtnDetails": {
+				"mtnStatusCode": "MTN-STS",
+				"mtnStatusReasonCode": "LOW",
+				"handsetEligibilityDate": "22-02-2020",
+				"numberOfInstallmentsToBill": 127.54,
+				"shareCardInfo": "IDEA",
+				"mmgResults": "FAIL"
+			},
+			"deviceInfo": {
+				"equipmentMfgName": "MFG",
+				"modelName": "SONY-GALAXY",
+				"divceType": "DUAL",
+				"deviceId": "SONY101",
+				"deviceTypeId": "1001",
+				"deviceCategory": "SONY",
+				"deviceActivationDate": "22-01-2021",
+				"deviceType4gSim": "4G.B",
+				"deviceCategoryCode": "SONY-AB",
+				"deviceCapabilityCode": "SONYBRAND",
+				"deviceNickName": "SNY",
+				"dualSimTrailEndDate": "22-09-2019",
+				"mobileInfoModel": {
+					"mtn": "MTN-101",
+					"vzUpEnrolledDate": "22-02-2017",
+					"familyBaseEnrolledDate": "25-06-2019",
+					"globalOrderInfo": "GLOBAL",
+					"dataUsageInfoModel": {
+						"dataAllowanceBar": "123GB",
+						"totalDataAllowances": "1200GB",
+						"carryOverAllowances": "150GB",
+						"dataProductAllowanceBar": "800GB"
+					}
+				}
+			},
+			"billCycleDataInfo": {
+				"billCycleEndDate": "22-01-2001",
+				"billCycleResetDate": "22-02-2002"
+			}
+		}
+	}
+}
