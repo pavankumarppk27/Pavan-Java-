@@ -12,6 +12,9 @@ public class LowerBoundGenerics {
 		
 		addNumber(intList);
 		
+		List<Number> numberList=new ArrayList<>();
+		addNumber(numberList);
+		
 		List<Object> objList=new ArrayList<>();
 		addNumber(objList);
 

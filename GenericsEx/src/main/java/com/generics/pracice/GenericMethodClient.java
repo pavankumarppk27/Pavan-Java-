@@ -8,6 +8,9 @@ public class GenericMethodClient {
 		Integer[] intValues = { 1, 2, 3, 4, 5, 6 };
 
 		GenericMethod<Integer> intVal = new GenericMethod<>(intValues);
+		
+	
+		//intVal.setArr(intValues);
 
 		Integer[] arr = intVal.getArr();
 		System.out.println(arr[3]);
