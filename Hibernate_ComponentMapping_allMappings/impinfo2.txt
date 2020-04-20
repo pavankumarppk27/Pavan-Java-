@@ -1,0 +1,6 @@
+@Temporal:
+=========
+
+
+@Temporal(TemporalType.Date)
+private Date valid;
