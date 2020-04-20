@@ -1,0 +1,58 @@
+@ManyToOne
+@OneToMany
+
+when you use @ManyToOne annotation it creates column in d.b
+
+-> when you @ManyToOne annotation you have to use @JoinColumn like below 
+
+@ManyToOne
+@JoinColumn(name="doctor_id")
+private List<Doctor> doctor;
+
+if you won't mention @JoinColumn then in d.b it creates that field like below
+doctor.doctor_id(className.Id)
+
+when you use @OneToMany annotation it doesn't creates column in d.b (check once)
+
+I think you should mention like below
+@OneToMany(maapedBy="doctor")
+private List<Appointment> appointment;
+
+class Doctor{
+
+@Id
+@Column("doctor_id")
+private Integer id;
+
+@OneToMany(maapedBy="doctor")
+private List<Appointment> appointment;
+
+}
+
+class Appointment{
+
+private Integer id;
+
+@ManyToOne
+@JoinColumn(name="doctor_id")
+private List<Doctor> doctor;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

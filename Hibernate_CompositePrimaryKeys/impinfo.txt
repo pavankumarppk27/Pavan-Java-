@@ -1,0 +1,24 @@
+@IdClass
+@Embeddable
+@EmbeddedId
+
+every key should implement Serializable Interface.
+
+
+IdClass vs Embeddable
+
+IdClass:
+=======
+if we use IdClass we have to repeat id,email two times(Customer,CustoerId classes).
+and readability also missing in Customer Entity classes.
+But while writing queries directly we can write query lik below
+===>select c.email Customer c;
+
+Embeddable:
+==========
+which gives readability.
+
+But while writing queries directly we can write query lik below
+===>select c.CustomerId.email Customer c;
+
+
