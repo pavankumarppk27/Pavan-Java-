@@ -1,0 +1,20 @@
+below annotations are being used in non select queries(insert,update,delete)
+
+@Modifying
+@Transactional
+@Rollback("false")
+
+
+Direction.DESC-->for sorting
+
+
+NativeQueries:
+==============
+for NativeQueries we have to write like below
+
+@Query(value="select * from student",nativeQuery=true).
+
+otherwise this query is considered by Jpql queries.
+
+-->which are specific to database.
+

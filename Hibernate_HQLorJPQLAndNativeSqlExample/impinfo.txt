@@ -1,0 +1,5 @@
+below annotations are being used in non select queries(insert,update,delete)
+
+@Modifying
+@Transactional
+@Rollback("false")

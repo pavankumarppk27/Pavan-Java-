@@ -1,0 +1,27 @@
+ACID PROPERTIES:
+================
+
+AUTOMICITY
+----------
+Either both updation should be happend. or not should be happend.
+
+CONSISTENCY:
+-----------
+Database should be consistency before transaction and after transaction.
+
+ISOLATION:
+---------
+If multiple transactions happend each tx with work with isolation. with out effecting others
+
+DURABILITY:
+----------
+Transaction changes are there. that changes should be commited in db.
+
+
+
+
+
+
+
+
+
